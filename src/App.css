@@ -1,0 +1,97 @@
+body {
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(51, 167, 196);
+  color: #171f46;
+
+
+}
+
+.appointments-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.appointments-title {
+  text-align: center;
+  color: #8b5cf6;
+}
+
+.appointments-form-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.appointments-img {
+  width: 150px;
+  height: 150px;
+  margin-right: 20px;
+}
+
+.appointments-form {
+  flex-grow: 1;
+}
+
+.input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b5b7c4;
+  border-radius: 4px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #9796f0;
+}
+
+.appointments-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.appointment-item {
+  padding: 15px;
+  border-bottom: 1px solid #b5b7c4;
+}
+
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appointment-title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.appointment-date {
+  margin: 10px 0;
+}
+
+.star-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.star-img {
+  width: 20px;
+  height: 20px;
+}
